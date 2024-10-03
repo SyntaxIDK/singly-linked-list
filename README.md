@@ -43,7 +43,7 @@ Make sure you have the following installed on your system:
 3. Run the following command:
 
     ```bash
-    git clone https://github.com/YourUsername/singly-linked-list-java.git
+    git clone https://github.com/SyntaxIDK/singly-linked-list-java.git
     ```
 
 4. Change into the cloned repository's directory:
