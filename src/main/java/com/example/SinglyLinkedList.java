@@ -129,4 +129,19 @@ public class SinglyLinkedList {
         }
         return -1; // Element not found
     }    
+
+    // Reverse the linked list in place
+    public void reverse() {
+        Node previous = null;
+        Node current = head;
+        Node next;
+        while (current != null) {
+            next = current.getNextNode();
+            current.setNextNode(previous);
+            previous = current;
+            current = next;
+        }
+        head = previous;
+    }
+
 }
