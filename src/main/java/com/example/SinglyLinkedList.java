@@ -101,5 +101,10 @@ public class SinglyLinkedList {
     public int getSize() {
         return size;
     }
+
+    // Check if the list is empty
+    public boolean isEmpty() {
+        return head == null;
+    }
    
 }
