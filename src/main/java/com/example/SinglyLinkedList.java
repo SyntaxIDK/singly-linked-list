@@ -51,5 +51,28 @@ public class SinglyLinkedList {
             current.setNextNode(newNode);
             size++;
         }
+    }
+    
+    // Remove a node by value
+    public void removeByValue(String data) {
+        if (head == null) return;
+
+        if (head.getData().equals(data)) {
+            head = head.getNextNode();
+            size--;
+            return;
+        }
+
+        Node current = head;
+        Node previous = null;
+        while (current != null && !current.getData().equals(data)) {
+            previous = current;
+            current = current.getNextNode();
+        }
+
+        if (current != null) {
+            previous.setNextNode(current.getNextNode());
+            size--;
+        }
     }    
 }
