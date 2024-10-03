@@ -9,4 +9,14 @@ public class SinglyLinkedList {
         this.head = null;
         this.size = 0;
     }
+
+    // Add a node to the beginning of the list
+    public void addAtHead(String data) {
+        Node newNode = new Node(data);
+        newNode.setNextNode(head);
+        head = newNode;
+        size++;
+    }
+
+
 }
