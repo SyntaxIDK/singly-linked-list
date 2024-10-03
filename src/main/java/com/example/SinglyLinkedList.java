@@ -95,5 +95,11 @@ public class SinglyLinkedList {
             previous.setNextNode(current.getNextNode());
         }
         size--;
-    }    
+    }
+    
+    // Find the size of the list
+    public int getSize() {
+        return size;
+    }
+   
 }
