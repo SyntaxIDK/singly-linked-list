@@ -1,3 +1,4 @@
+
 # Singly Linked List Implementation in Java
 
 This repository contains the implementation of a **Singly Linked List** from scratch in Java. The project is part of an assignment requiring multiple components including the `Node` class, `SinglyLinkedList` class, input handling, and operations like insertion, deletion, traversal, search, and list reversal.
@@ -92,27 +93,40 @@ singly-linked-list-java/
 │
 ├── src/
 │   ├── com/example/
-│   │   ├── Node.java         # Node class representing each node in the list
-│   │   ├── SinglyLinkedList.java   # Singly Linked List class with all operations
-│   │   ├── InputHandler.java  # Handles user input to interact with the list
-│   │   └── Main.java          # Entry point of the program
+│   │   ├── Node.java              # Node class representing each node in the list
+│   │   ├── SinglyLinkedList.java  # Singly Linked List class with all operations
+│   │   ├── InputHandler.java      # Handles user input to interact with the list
+│   │   └── Main.java              # Entry point of the program
 │
-└── README.md                  # This README file
+└── README.md                      # This README file
+```
 
 ## How to Use
 
 Once the program is running, you will see a menu in the terminal that looks like this:
 
+```
+Choose an option:
+1. Add at Head
+2. Add at Tail
+3. Add at Position
+4. Remove by Value
+5. Remove by Position
+6. Display List
+7. Search for Element
+8. Reverse List
+9. Exit
+```
 
 You can enter the corresponding number to perform actions on the singly linked list. For example:
 - Press `1` to add a node at the head.
 - Press `2` to add a node at the tail.
-- Press `3` to add a node at position.
+- Press `3` to add a node at a specific position.
 - Press `4` to remove a node by its value.
-- Press `5` to remove a node by position.
+- Press `5` to remove a node by its position.
 - Press `6` to traverse and display the entire list.
-- Press `7` to search for element.
-- Press `8` to reverse list.
+- Press `7` to search for an element.
+- Press `8` to reverse the list.
 - Press `9` to exit.
 
 Follow the prompts to input data or perform operations as needed.
@@ -124,4 +138,4 @@ This project is a collaborative effort. Special thanks to the group members for 
 - [Kaveesha](https://github.com/SyntaxIDK) 
 - [Dulina]
 - [Pasindu]
-- [Nethmi] 
+- [Nethmi]
