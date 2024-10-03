@@ -74,5 +74,26 @@ public class SinglyLinkedList {
             previous.setNextNode(current.getNextNode());
             size--;
         }
+    } 
+    
+    // Remove a node by position
+    public void removeByPosition(int position) {
+        if (position < 1 || position > size) {
+            System.out.println("Invalid position");
+            return;
+        }
+
+        if (position == 1) {
+            head = head.getNextNode();
+        } else {
+            Node current = head;
+            Node previous = null;
+            for (int i = 1; i < position; i++) {
+                previous = current;
+                current = current.getNextNode();
+            }
+            previous.setNextNode(current.getNextNode());
+        }
+        size--;
     }    
 }
