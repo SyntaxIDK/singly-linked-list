@@ -114,5 +114,19 @@ public class SinglyLinkedList {
             System.out.println(current.getData());
             current = current.getNextNode();
         }
+    }  
+    
+    // Search for an element and return its position
+    public int search(String data) {
+        Node current = head;
+        int position = 1;
+        while (current != null) {
+            if (current.getData().equals(data)) {
+                return position;
+            }
+            current = current.getNextNode();
+            position++;
+        }
+        return -1; // Element not found
     }    
 }
