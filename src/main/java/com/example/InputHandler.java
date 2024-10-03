@@ -70,7 +70,7 @@ public class InputHandler {
                     linkedList.traverse();
                     break;
                 case 9:
-                    System.out.println("Exiting...");
+                    System.out.println("Bye...");
                     return;
                 default:
                     System.out.println("Invalid choice. Try again.");
