@@ -106,5 +106,13 @@ public class SinglyLinkedList {
     public boolean isEmpty() {
         return head == null;
     }
-   
+
+    // Traversal and display of the list
+    public void traverse() {
+        Node current = head;
+        while (current != null) {
+            System.out.println(current.getData());
+            current = current.getNextNode();
+        }
+    }    
 }
