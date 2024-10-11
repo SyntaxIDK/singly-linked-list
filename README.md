@@ -1,7 +1,7 @@
 
 # Singly Linked List Implementation in Java
 
-This repository contains the implementation of a **Singly Linked List** from scratch in Java. The project is part of an assignment requiring multiple components including the `Node` class, `SinglyLinkedList` class, input handling, and operations like insertion, deletion, traversal, search, and list reversal.
+This repository contains the implementation of a **Singly Linked List** from scratch in Java. The project has multiple components including the `Node` class, `SinglyLinkedList` class, input handling, and operations like insertion, deletion, traversal, search, and list reversal.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -136,6 +136,4 @@ Follow the prompts to input data or perform operations as needed.
 This project is a collaborative effort. Special thanks to the group members for their contributions.
 
 - [Kaveesha](https://github.com/SyntaxIDK) 
-- [Dulina]
-- [Pasindu]
-- [Nethmi]
+- will be added
